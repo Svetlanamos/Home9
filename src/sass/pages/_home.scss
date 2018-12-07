@@ -1,0 +1,288 @@
+//section two
+p {
+  font-family: "Proxima Nova - Regular", Arial sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.45px;
+  font-size: 18px;
+  line-height: 96px;
+  color: #87949e;
+}
+
+.text-center {
+  text-align: center;
+  justify-content: space-between;
+  margin: 100px 20px 30px;
+
+}
+
+.service {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-text {
+  color: #000000;
+  font-family: Raleway, Arial sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 96px;
+  letter-spacing: 0.75px;
+}
+
+.service-text-p {
+  color: #87949e;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.45px;
+}
+
+.service-rocket-1, .service-rocket-2,
+.service-rocket-3, .service-rocket-4 {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  transition: background-color 0.5s ease;
+  border: 2px solid #ffffff;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.service-rocket-1 img, .service-rocket-2 img,
+.service-rocket-3 img, .service-rocket-4 img {
+  padding-top: 65px;
+  padding-left: 65px;
+  color: white;
+}
+
+.service-rocket-1:hover {
+  background-color: #17daa3;
+}
+
+.service-rocket-2:hover {
+  background-color: #17daa3;
+}
+
+.service-rocket-3:hover {
+  background-color: #17daa3;
+}
+
+.service-rocket-4:hover {
+  background-color: #17daa3;
+}
+
+.button-green {
+  margin-bottom: 70px;
+  margin-top: 80px;
+
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+}
+
+//section four
+
+.dolor {
+  display: flex;
+}
+
+.service-text-pull {
+  color: #87949e;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+
+.button-two, .button-three {
+  margin: 40px 10px 80px 10px;
+}
+
+.dolor-top {
+  margin-top: 500px;
+
+}
+
+.two-background {
+  background-color: white;
+  background-image: url("../img/photo-bac.png");
+}
+
+.photo {
+  text-align: center;
+  padding-top: 80px;
+
+}
+
+.pager {
+  padding-bottom: 70px;
+
+}
+
+.nam-text {
+  opacity: 0.3;
+  color: #ffffff;
+  font-family: Raleway, Arial sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 96px;
+}
+
+.alecto span, .alecto {
+  color: #ffffff;
+  font-family: Raleway, Arial sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 96px;
+}
+
+.alecto {
+  color: #17daa3;
+  letter-spacing: 0.75px;
+
+}
+
+//section five
+.three-background {
+  background-color: #ffffff;
+}
+
+.development {
+  width: $w;
+  height: $h;
+  background-image: url("../img/Development.png");
+}
+
+.portfolio {
+  width: $w;
+  height: $h;
+  background-image: url("../img/Portfolio.png");
+}
+
+.branding {
+  width: $w;
+  height: $h;
+  background-image: url("../img/Branding.png");
+}
+
+.design {
+  width: $w;
+  height: $h;
+  background-image: url("../img/Design.png");
+}
+
+.service-nav {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.resume {
+  display: flex;
+  justify-content: space-between;
+}
+
+.resume-text {
+  color: #87949e;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+}
+
+.icon {
+  margin-top: -15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+//section six
+.photo-images img {
+  width: 315px;
+  height: 315px;
+}
+
+.photo-images {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+//section seven
+
+.back-ground {
+  background-color: #f9f9fa;
+}
+
+.dollar-29 {
+  background-image: url("../img/layers08.png");
+}
+
+.dollar-39 {
+  background-image: url("../img/9-layers.png");
+}
+
+.dollar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.dollar img {
+  width: 280px;
+}
+
+//section eight
+
+p .resume-text-one {
+  color: #87949e;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+}
+
+.map {
+  background-image: url("../img/Map.png");
+  width: 850px;
+  height: 450px;
+}
+
+.container-map {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 80px;
+}
+
+.container-text {
+  margin: 40px 0 0 200px;
+}
+
+.container-map {
+  padding-top: 60px;
+}
+
+//section nine
+
+.templat {
+  background-color: #00b6cb;
+  background-image: url("../img/template.png");
+}
+
+.templat-text {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 250px;
+}
+
+h4 {
+  color: #ffffff;
+  font-family: "Raleway - Extra Light", Arial sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 96px;
+}
+
+strong {
+  font-family: Raleway, Arial sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}

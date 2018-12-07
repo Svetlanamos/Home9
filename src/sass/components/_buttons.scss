@@ -1,0 +1,63 @@
+// button header
+
+.button-button {
+  width: 183px;
+  height: 47px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background-color: #00b6cb;
+  background: rgba(76, 175, 80, 0.1);
+  outline: none;
+
+}
+
+.button-button a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  font-family: Raleway, Arial sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+
+}
+
+// слайдер переключатель для header и section four
+
+.radio a {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px;
+  transition: background-color 0.5s ease;
+  border: 2px solid #ffffff;
+  background-color: #00b6cb;
+  background: rgba(76, 175, 80, 0.1);
+}
+
+.radio a:hover {
+  background-color: white;
+}
+
+//стили к зелёной кнопке
+
+.button-green a, .button-two a, .button-three a, .button-four a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+  font-family: Raleway, Arial sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.35px;
+}
+
+.button-green, .button-two, .button-three, .button-four {
+  width: 183px;
+  height: 47px;
+  border-radius: 24px;
+  border: 2px solid #ffffff;
+  background-color: #17daa3;
+}

@@ -1,0 +1,97 @@
+body {
+  width: 100%;
+  max-width: 1800px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #00603f;
+  background-image: url("../img/background-space.png");
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 40px 10px;
+}
+
+.nav-menu {
+  display: flex;
+  padding-top: 15px;
+}
+
+.logo {
+  padding: 5px 5px 0;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Raleway, Arial sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.35px;
+  padding: 5px 15px;
+
+}
+
+
+h1 {
+  color: #ffffff;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 44px;
+  font-weight: 100;
+  line-height: 60px;
+  letter-spacing: 1.5px;
+
+}
+
+strong {
+  font-family: Raleway, Arial sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.nam {
+  font-family: "Proxima Nova Lt", Arial sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.6px;
+  color: #ffffff;
+  padding: 30px;
+
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.radio {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+
+.arrow {
+  padding: 45px;
+  text-align: center;
+}
+
+.arrow-right, .arrow-left, .arrow {
+  margin-top: 40px;
+  font-size: 55px;
+
+}
+
+.arrow-right a, .arrow-left a, .arrow a {
+  text-decoration: none;
+  color: white;
+
+}

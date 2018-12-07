@@ -1,0 +1,32 @@
+
+.object {
+  background-image: url("../img/object.png");
+  width: 26px;
+  height: 26px;
+  margin-top: 40px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-nav-con {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 20px;
+}
+
+.footer-nav-con1 {
+  display: flex;
+  flex-direction: row;
+}
+
+h5, .footer-nav-con a {
+  padding: 15px;
+  opacity: 0.45;
+  color: #87949e;
+  font-family: "Proxima Nova", Arial sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}

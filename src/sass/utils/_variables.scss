@@ -1,0 +1,17 @@
+//стили для заголовка н2
+$color: #576671;
+$ff: "Raleway - Extra Light", Arial sans-serif;
+$font-size: 60px;
+$font-weight: 200;
+$letter-spacing: 1.5px;
+
+h2 {
+  color: $color;
+  font-family: $ff;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  letter-spacing: $letter-spacing;
+}
+
+$w: 32px; //ширина для иконок 4 секции
+$h: 32px; // высота для иконок 4 секции
